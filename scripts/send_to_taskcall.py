@@ -170,26 +170,15 @@ if __name__ == '__main__':
     cmd_line_arguments['host_state_type'] = args.hst
     cmd_line_arguments['host_attempt'] = args.ha
     cmd_line_arguments['max_host_attempts'] = args.mha
-    cmd_line_arguments['host_event_id'] = args.hei
-    cmd_line_arguments['last_host_event_id'] = args.lhei
-    cmd_line_arguments['host_problem_id'] = args.hpi
-    cmd_line_arguments['last_host_problem_id'] = args.lhpi
     cmd_line_arguments['host_latency'] = args.hl
     cmd_line_arguments['host_execution_time'] = args.het
-    cmd_line_arguments['host_duration'] = args.hd
     cmd_line_arguments['host_duration_sec'] = args.hds
     cmd_line_arguments['host_down_time'] = args.hdt
-    cmd_line_arguments['host_percent_change'] = args.hpc
     cmd_line_arguments['host_group_name'] = args.hgn
     cmd_line_arguments['host_group_names'] = args.hgns
     cmd_line_arguments['last_host_check'] = args.lhc
     cmd_line_arguments['last_host_state_change'] = args.lhsc
-    cmd_line_arguments['last_host_up'] = args.lhu
-    cmd_line_arguments['last_host_down'] = args.lhd
-    cmd_line_arguments['last_host_unreachable'] = args.lhur
     cmd_line_arguments['host_output'] = args.ho
-    cmd_line_arguments['long_host_output'] = args.lho
-    cmd_line_arguments['host_notes_url'] = args.hnu
     cmd_line_arguments['host_perf_data'] = args.hpd
 
     cmd_line_arguments['service_desc'] = args.s
@@ -200,29 +189,16 @@ if __name__ == '__main__':
     cmd_line_arguments['last_service_state_id'] = args.lssi
     cmd_line_arguments['service_state_type'] = args.sst
     cmd_line_arguments['service_attempt'] = args.sa
+    cmd_line_arguments['service_check_command'] = args.sc
     cmd_line_arguments['max_service_attempts'] = args.msa
-    cmd_line_arguments['service_is_volatile'] = args.siv
-    cmd_line_arguments['service_event_id'] = args.sei
-    cmd_line_arguments['last_service_event_id'] = args.lsei
-    cmd_line_arguments['service_problem_id'] = args.spi
-    cmd_line_arguments['last_service_problem_id'] = args.lspi
     cmd_line_arguments['service_latency'] = args.sl
     cmd_line_arguments['service_execution_time'] = args.set
-    cmd_line_arguments['service_duration'] = args.sd
     cmd_line_arguments['service_duration_sec'] = args.sds
     cmd_line_arguments['service_down_time'] = args.sdt
-    cmd_line_arguments['service_percent_change'] = args.spc
-    cmd_line_arguments['service_group_name'] = args.sgn
     cmd_line_arguments['service_group_names'] = args.sgns
     cmd_line_arguments['last_service_check'] = args.lsch
     cmd_line_arguments['last_service_state_change'] = args.lssc
-    cmd_line_arguments['last_service_ok'] = args.lsok
-    cmd_line_arguments['last_service_warning'] = args.lsw
-    cmd_line_arguments['last_service_unknown'] = args.lsu
-    cmd_line_arguments['last_service_critical'] = args.lsc
     cmd_line_arguments['service_output'] = args.so
-    cmd_line_arguments['long_service_output'] = args.lso
-    cmd_line_arguments['service_notes_url'] = args.snu
     cmd_line_arguments['service_perf_data'] = args.spd
 
     # Set up logging
